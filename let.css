@@ -1,0 +1,19 @@
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+ 
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home .max-width {
+    width: 100%;
+    display: flex;
+  }
+  .home .max-width .row {
+    margin-right: 0;
+  }
