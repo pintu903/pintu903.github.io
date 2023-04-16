@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
+
     <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <link
 rel="stylesheet"
@@ -18,20 +19,22 @@ href="./calendar.css"
 />
   </head>
   <body>
-    <div id="navbar">
-      <div>
-        <h3 class="logo lead"> <span>< Pintu Kumar /></span></h3>
+    <nav id="navbar" class="navbar">
+      
+      <div><h3 class="logo lead"> <span>< Pintu Kumar /></span></h3></div>
+      <div class="nav-toggle">
+        <i class=" menu-btn fa-solid fa-bars"></i>
       </div>
-      <div class="nav-toggle"><i class="fa-solid fa-bars"></i></div>
-      <div class="nav-links nav-linksGo">
-        <a href="#pintu" target="_self"> <h3 class="lead">Home</h3> </a>
-        <a href="#about" target="_self"> <h3 class="lead">About</h3></a>
-        <a href="#skills" target="_self"><h3 class="lead">Skills</h3></a>
-        <a href="#projects" target="_self"><h3 class="lead">Projects</h3></a>
-        <a href="#footer" target="_self"><h3 class="lead">Contacts</h3></a>
+      <div class="nav-links nav-linksGo menu">
+        <a href="#pintu" target="_self" class="menu-btn> <h3 class="lead">Home</h3> </a>
+        <a href="#about" target="_self" class="menu-btn> <h3 class="lead">About</h3></a>
+        <a href="#skills" target="_self" class="menu-btn><h3 class="lead">Skills</h3></a>
+        <a href="#projects" target="_self" class="menu-btn><h3 class="lead">Projects</h3></a>
+        <a href="#footer" target="_self" class="menu-btn><h3 class="lead">Contacts</h3></a>
         <!-- <button id="lightbtn"><i class="fa-solid fa-moon lead"></i></button> -->
       </div>
-    </div>
+    </nav>
+
     <div id="pintu" class="bgstyle">
       <div class="content">
         <h1 class="display-1">Pintu Kumar</h1>
