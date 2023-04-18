@@ -14,6 +14,35 @@ body {
   color: black;
   margin: 1%;
 }
+#stats{
+  display: flex;
+  justify-content: space-around;
+}
+#stats img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+/* Tablets and larger */
+@media only screen and (max-width: 768px) {
+  #stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+  }
+
+  #stats img {
+    margin: 0 10px;
+  }
+}
+/*
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+*/
 
 #github {
   width: 100%;
@@ -210,7 +239,7 @@ body {
 #skills {
   background-color: #007266;
   background-color: rgb(85, 125, 165);
-  /* height: 100vh; */
+  height: 90vh;
   padding-top: 5%;
   background: linear-gradient(
       136deg,
@@ -405,7 +434,7 @@ body {
 .project-techstack h4 {
   margin: 0;
   font-weight: 500;
-  font-size: 0.98rem;
+  font-size: 1.4rem;
 }
 .project-links {
   height: auto;
