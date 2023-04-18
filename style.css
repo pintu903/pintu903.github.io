@@ -33,11 +33,40 @@ body {
     /* flex-direction: row; */
     /* justify-content: center; */
   }
-
+ 
   #stats img {
     margin: 0 10px;
   }
 }
+
+#emailOrNumber{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 38%;
+}
+#emailOrNumber > p{
+  font-size: 12px;
+}
+
+/* #emailOrNumber {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+
+@media only screen and (max-width: 768px) {
+  #emailOrNumber{
+    /* margin: auto;/ */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 38%; */
+    display: block;
+  }
+}
+
 /*
   display: flex;
   flex-direction: column;
@@ -508,7 +537,9 @@ body {
 #footer > p {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
-  margin: 0;
+margin-top: 20px;
+font-size: 14px;
+  /* margin: 0; */
   padding-bottom: 2%;
 }
 .name {
