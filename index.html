@@ -19,21 +19,34 @@ href="./calendar.css"
 />
   </head>
   <body>
-    <nav id="navbar" class="navbar">
-      
-      <div><h3 class="logo lead"> <span>< Pintu Kumar /></span></h3></div>
-      <div class="nav-toggle">
-        <i class=" menu-btn fa-solid fa-bars"></i>
-      </div>
-      <div class="nav-links nav-linksGo menu">
-        <a href="#pintu" target="_self" class="menu-btn> <h3 class="lead">Home</h3> </a>
-        <a href="#about" target="_self" class="menu-btn> <h3 class="lead">About</h3></a>
-        <a href="#skills" target="_self" class="menu-btn><h3 class="lead">Skills</h3></a>
-        <a href="#projects" target="_self" class="menu-btn><h3 class="lead">Projects</h3></a>
-        <a href="#footer" target="_self" class="menu-btn><h3 class="lead">Contacts</h3></a>
-        <!-- <button id="lightbtn"><i class="fa-solid fa-moon lead"></i></button> -->
-      </div>
-    </nav>
+
+    <header class="header">
+      <nav class="navbar">
+          <a href="#" class="nav-logo"><span>< Pintu Kumar /></span></a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="#pintu" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#footer" class="nav-link">Contacts</a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+</header>
 
     <div id="pintu" class="bgstyle">
       <div class="content">
@@ -63,9 +76,12 @@ href="./calendar.css"
             aria-label="My Mail"
             ><i class="fa-solid fa-envelope fa-3x"></i></a>
         </div>
-        <a class="resume-link" target="_blank" href="./download/Pintu_Kumar_Resume.pdf" download  id="Drivegoogle"><div class="resume">
-          <h3>Resume</h3>
-        </div></a>
+        <a class="resume-link" target="_blank" href="./download/Pintu_Kumar_Resume.pdf" download="Pintu_Kumar_Resume" id="Drivegoogle">
+
+                      <div class="resume">
+                      <h3>Resume</h3>
+                      </div>
+      </a>
       </div>
     </div>
     <div id="about">
@@ -204,8 +220,6 @@ href="./calendar.css"
             <div class="project-desc">
               <p>
                 A restful-based web service for online bus reservation system, easy-to-utilize user experience for booking and purchasing tickets online.
-                       <!-- <br> This app performs all the fundamental CRUD operations. -->
-              
               </p>
               <p>   A collaborative project built by a team of 5 member in 5 days.</p>
             </div>
@@ -259,7 +273,6 @@ href="./calendar.css"
 <script>
   GitHubCalendar(".calendar", "pintu903");
 
-  // or enable responsive functionality:
   GitHubCalendar(".calendar", "pintu903", { responsive: true });
 </script>
 
