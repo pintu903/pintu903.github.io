@@ -45,7 +45,7 @@ body {
 #pintu {
   background-color: #007266;
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(
       136deg,
       rgb(68, 132, 206),
@@ -210,7 +210,7 @@ body {
 #skills {
   background-color: #007266;
   background-color: rgb(85, 125, 165);
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 5%;
   background: linear-gradient(
       136deg,
