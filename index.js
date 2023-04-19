@@ -5,7 +5,7 @@ let drive = document
 function openDrive() {
   window.open(
     (href =
-      "https://drive.google.com/file/d/1Sq5cvoBI5sqpCTaRl0W_XR7buHTYJYY4/view?usp=sharing")
+      "https://drive.google.com/file/d/1LAjWbXqHaPfCGF2W2Oy9liSuo5W6ioR8/view?usp=sharing")
   );
 }
 
