@@ -3,7 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* #tools > div{
+  display: flex;
+  justify-content: space-around;
+} */
 
+#toolName {
+  text-align: center;
+  font-size: 3.48832rem;
+    font-weight: 300;
+  margin-bottom: 15px;
+}
+
+/* Desktop styles */
+#tools {
+  padding: 30px 0px;
+  background-color: #d0ceba;
+}
+#tools > div > div > img {
+  width: 80%;
+  height: 80%;
+}
+
+#tools > div {
+  margin-bottom: 20px;
+}
+#tools div {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Tablet styles  */
+/* @media only screen and (max-width: 500px) {
+  #tools > div{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #tools div {
+    margin: 10px 0;
+  }
+} */
+
+/* Mobile styles */
+@media only screen and (max-width: 480px) {
+  #tools div {
+    margin: 10px 0;
+  }
+}
+/* mmmmmmmmmmmmmmm */
 body {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
@@ -14,7 +62,7 @@ body {
   color: black;
   margin: 1%;
 }
-#stats{
+#stats {
   display: flex;
   justify-content: space-around;
 }
@@ -30,48 +78,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-direction: row; */
-    /* justify-content: center; */
   }
- 
   #stats img {
     margin: 0 10px;
   }
+  #emailOrNumber {
+    display: block;
+  }
 }
 
-#emailOrNumber{
+#emailOrNumber {
   margin: auto;
   display: flex;
   justify-content: space-between;
   width: 38%;
 }
-#emailOrNumber > p{
+#emailOrNumber > p {
   font-size: 12px;
 }
-
-/* #emailOrNumber {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-
-@media only screen and (max-width: 768px) {
-  #emailOrNumber{
-    /* margin: auto;/ */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* width: 38%; */
-    display: block;
-  }
-}
-
-/*
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-*/
 
 #github {
   width: 100%;
@@ -537,8 +561,8 @@ body {
 #footer > p {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
-margin-top: 20px;
-font-size: 14px;
+  margin-top: 20px;
+  font-size: 14px;
   /* margin: 0; */
   padding-bottom: 2%;
 }
