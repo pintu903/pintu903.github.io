@@ -16,10 +16,8 @@
 }
 
 /* Desktop styles */
-#tools {
-  /* width: 120vw; */
+/* #tools {
   padding: 30px 0px;
-  /* border: 1px solid red; */
   background-color: #d0ceba;
 }
 #tools > div > div > img {
@@ -33,7 +31,7 @@
 #tools div {
   display: flex;
   justify-content: space-around;
-}
+} */
 
 /* Tablet styles  */
 /* @media only screen and (max-width: 500px) {
@@ -48,11 +46,11 @@
 } */
 
 /* Mobile styles */
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   #tools div {
     margin: 10px 0;
   }
-}
+} */
 /* mmmmmmmmmmmmmmm */
 body {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
