@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* #tools > div{
   display: flex;
   justify-content: space-around;
@@ -57,21 +58,25 @@ body {
     Droid Sans, Helvetica Neue, sans-serif;
   margin: 0;
 }
+
 #call {
   font-size: 18px;
   color: black;
   margin: 1%;
 }
+
 #stats {
   display: flex;
   justify-content: space-around;
 }
+
 #stats img {
   width: 100%;
   max-width: 600px;
   height: auto;
   margin-bottom: 20px;
 }
+
 /* Tablets and larger */
 @media only screen and (max-width: 768px) {
   #stats {
@@ -79,6 +84,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
   #stats img {
     margin: 0 10px;
   }
@@ -91,11 +97,13 @@ body {
   justify-content: space-between;
   width: 38%;
 }
-#emailOrNumber > p {
+
+#emailOrNumber>p {
   font-size: 12px;
 }
+
 @media only screen and (max-width: 768px) {
-  #emailOrNumber{
+  #emailOrNumber {
     /* margin: auto;/ */
     /* display: flex; */
     /* justify-content: space-between; */
@@ -103,6 +111,7 @@ body {
     display: none;
   }
 }
+
 #github {
   width: 100%;
   text-align: center;
@@ -114,6 +123,7 @@ body {
 .code {
   margin: 0;
   margin-bottom: 1%;
+  margin-top: 2%;
   font-size: 28px;
   text-align: center;
   font-weight: 400;
@@ -134,33 +144,34 @@ body {
 
   background-color: #007266;
   display: flex;
-  background: linear-gradient(
-      136deg,
+  background: linear-gradient(136deg,
       rgb(68, 132, 206),
       rgb(26, 215, 192),
       rgb(255, 155, 17),
       rgb(155, 89, 182),
       rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
 }
+
 .bgstyle {
   animation: BackgroundAnimation 70s ease infinite;
 }
+
 @keyframes BackgroundAnimation {
   0% {
     background-position: 0% 7%;
   }
+
   50% {
     background-position: 100% 94%;
   }
+
   100% {
     background-position: 0% 7%;
   }
 }
 
-#pintu > .content {
+#pintu>.content {
   height: auto;
   width: 800px;
   margin: auto;
@@ -179,6 +190,7 @@ body {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
 }
+
 .typist {
   color: white;
   font-size: 22px;
@@ -197,11 +209,13 @@ body {
   width: 25%;
   margin: auto;
 }
-.all-links > a {
+
+.all-links>a {
   margin: 10px;
   color: white;
 }
-.all-links > a:hover {
+
+.all-links>a:hover {
   color: black;
 }
 
@@ -217,20 +231,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .resume:hover {
   background-color: white;
   color: #2e2e2e;
 }
+
 .resume h3 {
   font-size: 22px;
   font-weight: 400;
 }
+
 .resume-link {
   display: flex;
   margin: auto;
   width: 21%;
   text-decoration: none;
 }
+
 #about {
   background-color: rgb(178, 180, 182);
   display: flex;
@@ -238,6 +256,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .about-me-txt {
   color: #212529;
   font-size: 3.48832rem;
@@ -245,10 +264,12 @@ body {
   margin: 0;
   margin-top: 5%;
 }
+
 .hi {
   color: #2e2e2e;
   font-size: 24px;
 }
+
 .about-box {
   width: 75%;
   margin: auto;
@@ -258,15 +279,18 @@ body {
   justify-content: space-around;
   padding-bottom: 10%;
 }
+
 .about-box img {
   height: 75%;
   width: 30%;
   border-radius: 10%;
 }
-.about-box > div {
+
+.about-box>div {
   width: 52%;
   text-align: center;
 }
+
 .about-box h2 {
   color: rgb(50 50 50);
   font-size: 28px;
@@ -275,6 +299,7 @@ body {
   text-align: justify;
   font-weight: 400;
 }
+
 .about-box p {
   margin: 0;
   margin-bottom: 2%;
@@ -282,9 +307,11 @@ body {
   color: rgb(50, 50, 50);
   text-align: justify;
 }
+
 .about-box i {
   color: #007266;
 }
+
 .information {
   color: rgb(50, 50, 50);
   height: auto;
@@ -294,42 +321,45 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 /* skills */
 #skills {
   background-color: #007266;
   background-color: rgb(85, 125, 165);
-  height: 90vh;
-  padding-top: 5%;
-  background: linear-gradient(
-      136deg,
+  height: auto;
+  /* padding-top: 2%; */
+  padding-bottom: 5%;
+  background: linear-gradient(136deg,
       rgb(68, 132, 206),
       rgb(26, 215, 192),
       rgb(255, 155, 17),
       rgb(155, 89, 182),
       rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
 }
-#skills > div:nth-child(1) {
+
+#skills>div:nth-child(1) {
   text-align: center;
   color: white;
   padding-top: 5%;
 }
-#skills > div:nth-child(2) {
+
+#skills>div:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3%;
 }
-#skills > div:nth-child(2) > div > div {
+
+#skills>div:nth-child(2)>div>div {
   transition: all 500ms;
   padding: 0;
   width: 60%;
   margin: auto;
   margin-top: 3%;
 }
-#skills > div:nth-child(2) > div > div div {
+
+#skills>div:nth-child(2)>div>div div {
   transition: all 500ms;
   padding: 0;
   margin: auto;
@@ -337,17 +367,18 @@ body {
   width: 50%;
 }
 
-#skills > div:nth-child(2) > div > div:hover {
+#skills>div:nth-child(2)>div>div:hover {
   transform: scale(1.1);
 }
 
-#skills > div:nth-child(3) > div > div > div {
+#skills>div:nth-child(3)>div>div>div {
   transition: all 500ms;
   padding: 0;
   margin: auto;
   height: 45px;
 }
-#skills > div:nth-child(3) > div > div {
+
+#skills>div:nth-child(3)>div>div {
   transition: all 500ms;
   padding: 0;
 }
@@ -358,10 +389,12 @@ body {
   color: #2e2e2e;
   text-align: center;
 }
+
 .front-end h2 {
   color: white;
   font-weight: 400;
 }
+
 .front-end div {
   display: flex;
   align-items: center;
@@ -371,20 +404,24 @@ body {
   margin-bottom: 5%;
   font-size: 20px;
 }
+
 #skills i {
   font-size: 29px;
   margin-right: 20px;
 }
+
 .back-end {
   height: auto;
   width: 35%;
   color: #2e2e2e;
   text-align: center;
 }
+
 .back-end h2 {
   color: white;
   font-weight: 400;
 }
+
 .back-end div {
   display: flex;
 
@@ -395,24 +432,56 @@ body {
   margin-bottom: 5%;
   font-size: 20px;
 }
-.front-end div > img {
+
+.front-end div>img {
   width: 20%;
   margin-right: 5%;
 }
-.back-end div > img {
+
+.back-end div>img {
   width: 20%;
   margin-right: 5%;
 }
+
+.devops {
+  height: auto;
+  width: 35%;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.devops h2 {
+  color: white;
+  font-weight: 400;
+}
+
+.devops div {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem 11rem;
+  border-radius: 0.5rem;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.devops div>img {
+  width: 20%;
+  margin-right: 5%;
+}
+
 /* projects */
 #projects {
   background-color: rgb(233, 236, 239);
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
+
 .pro_1_div {
   text-align: center;
   padding-top: 5%;
 }
-.pro_1_div > h2 {
+
+.pro_1_div>h2 {
   margin: 0;
   margin-top: 1%;
 }
@@ -422,7 +491,8 @@ body {
   width: 80%;
   margin: auto;
 }
-.pro_2_div > div {
+
+.pro_2_div>div {
   background-color: rgb(34, 34, 34);
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -437,17 +507,21 @@ body {
   background-color: white;
   color: black;
 }
-.pro_2_div > div:nth-child(2) {
+
+.pro_2_div>div:nth-child(2) {
   margin-top: 4%;
 }
+
 .project-img {
   width: 55%;
   border-radius: 20px;
 }
+
 .overlay {
   transition: 0.5s ease;
   transform: scale(100px, 100px);
 }
+
 .overlay:hover {
   transform: scale(1.1, 1.1);
   cursor: zoom-in;
@@ -461,40 +535,43 @@ body {
   padding-left: 10px;
   font-size: small;
 }
+
 .project-title {
   background-color: #007266;
-  background: linear-gradient(
-      136deg,
+  background: linear-gradient(136deg,
       rgb(68, 132, 206),
       rgb(26, 215, 192),
       rgb(255, 155, 17),
       rgb(155, 89, 182),
       rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
   text-align: center;
 }
+
 .project-title h3 {
   margin: 0;
   font-size: 22px;
   font-weight: 400;
   color: white;
 }
+
 .project-desc {
   height: auto;
   margin-top: 6%;
   font-size: 16px;
   font-weight: 400;
 }
+
 .project-techstack {
   margin: 0;
 }
+
 .project-techstack h4 {
   margin: 0;
   font-weight: 500;
   font-size: 1.4rem;
 }
+
 .project-links {
   height: auto;
   margin-top: 3%;
@@ -502,7 +579,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.project-links > a {
+
+.project-links>a {
   height: 30px;
   width: 40%;
   text-align: center;
@@ -511,17 +589,14 @@ body {
   text-decoration: none;
 }
 
-.project-links > a > div:hover {
-  background: linear-gradient(
-      136deg,
+.project-links>a>div:hover {
+  background: linear-gradient(136deg,
       rgb(68, 132, 206),
       rgb(26, 215, 192),
       rgb(255, 155, 17),
       rgb(155, 89, 182),
       rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
   color: white;
   cursor: pointer;
 }
@@ -529,22 +604,20 @@ body {
 /* footer */
 #footer {
   background-color: #007266;
-  background: linear-gradient(
-      136deg,
+  background: linear-gradient(136deg,
       rgb(68, 132, 206),
       rgb(26, 215, 192),
       rgb(255, 155, 17),
       rgb(155, 89, 182),
       rgb(255, 127, 127),
-      rgb(236, 240, 241)
-    )
-    0% 0% / 1200% 1200%;
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
   width: 100%;
   text-align: center;
   color: white;
   padding-top: 5px;
   padding-bottom: 7px;
 }
+
 #footer h2 {
   margin-top: 0;
   margin-bottom: 1%;
@@ -555,16 +628,19 @@ body {
   text-align: center;
   margin-bottom: 1%;
 }
+
 #footer .links a {
   font-size: 40px;
   margin-left: 4%;
   margin-right: 4%;
   color: black;
 }
+
 #footer .links a :hover {
   color: white;
 }
-#footer > p {
+
+#footer>p {
   font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
   margin-top: 20px;
@@ -572,17 +648,20 @@ body {
   /* margin: 0; */
   padding-bottom: 2%;
 }
+
 .name {
   font-size: 20px;
   color: white;
   margin-left: 1%;
 }
+
 .titles {
   color: rgb(33, 37, 41);
   font-size: 3.48832rem;
   font-weight: 300;
-  margin: 1% 0px 0px;
+  margin: 1% 0px 5% 0px;
 }
+
 .fontWhite {
   color: white;
 }
@@ -590,14 +669,21 @@ body {
 /* MEDIA QUERIES */
 
 @media (max-width: 990px) {
-  .front-end div > img {
+  .front-end div>img {
     width: 15%;
     margin-right: 5%;
   }
-  .back-end div > img {
+
+  .back-end div>img {
     width: 15%;
     margin-right: 5%;
   }
+
+  .devops div>img {
+    width: 15%;
+    margin-right: 5%;
+  }
+
   /* pintu sectoin 1st section */
   .display-1 {
     color: white;
@@ -609,6 +695,7 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
       Droid Sans, Helvetica Neue, sans-serif;
   }
+
   .typist {
     color: white;
     font-size: 20px;
@@ -618,21 +705,27 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
       Droid Sans, Helvetica Neue, sans-serif;
   }
-  #skills > div:nth-child(1) {
+
+  #skills>div:nth-child(1) {
     padding-top: 2%;
   }
-  #skills > div:nth-child(2) {
+
+  #skills>div:nth-child(2) {
     display: block;
   }
-  #skills > div:nth-child(2) > div > div div {
+
+  #skills>div:nth-child(2)>div>div div {
     font-size: 20px;
   }
+
   .front-end {
     width: 100%;
   }
+
   .front-end h2 {
     text-align: center;
   }
+
   .back-end {
     width: 100%;
   }
@@ -640,14 +733,25 @@ body {
   .back-end h2 {
     text-align: center;
   }
-  .front-end > div {
+
+  .devops {
+    width: 100%;
+  }
+
+  .devops h2 {
+    text-align: center;
+  }
+
+  .front-end>div {
     display: block;
     padding: 0;
   }
+
   .project-title h3 {
     font-size: 15px;
     margin-top: 3%;
   }
+
   #projects {
     background-color: rgb(233, 236, 239);
   }
@@ -657,30 +761,37 @@ body {
     margin: 0%;
     margin-top: 3%;
   }
+
   .project-about {
     width: 95%;
     margin: auto;
   }
+
   .project-desc {
     font-size: 13px;
     height: auto;
     margin-top: 0;
     line-height: 1.7;
   }
+
   .project-techstack h4 {
     font-size: 13px;
   }
+
   .pro_2_div {
     width: 75%;
   }
-  .pro_2_div > div {
+
+  .pro_2_div>div {
     height: auto;
     display: block;
     text-align: center;
   }
-  .project-links > a {
+
+  .project-links>a {
     font-size: 13px;
   }
+
   .about-box {
     height: auto;
     width: 100%;
@@ -694,46 +805,56 @@ body {
     font-size: 25px;
     text-align: center;
   }
+
   .about-box img {
     width: 25%;
     height: 50%;
     margin-top: 1%;
     margin-bottom: 2%;
   }
-  .about-box > div {
+
+  .about-box>div {
     width: 80%;
     margin: auto;
   }
+
   .about-box p {
     font-size: 20px;
   }
+
   .information {
     font-size: 13px;
 
     gap: 10%;
   }
-  #call > i {
+
+  #call>i {
     font-size: 14px;
     margin: 0%;
   }
+
   .code {
     font-size: 18px;
   }
+
   .contrib-number {
     line-height: 1.3em;
     font-size: 12px;
     display: block;
     color: #333;
   }
+
   .titles {
     color: rgb(33, 37, 41);
     font-size: 1.8832rem;
     font-weight: 300;
-    margin: 5% 0px 0px;
+    margin: 0% 0px 0px;
   }
+
   .fontWhite {
     color: white;
   }
+
   .about-me-txt {
     font-size: 1.8832rem;
     font-weight: 300;
@@ -752,6 +873,7 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
       Droid Sans, Helvetica Neue, sans-serif;
   }
+
   .typist {
     color: white;
     font-size: 12px;
@@ -765,10 +887,12 @@ body {
   .resume h3 {
     font-size: 16px;
   }
-  #pintu > .content {
+
+  #pintu>.content {
     margin-top: 25%;
     margin-bottom: 10%;
   }
+
   .about-box {
     height: auto;
     width: 100%;
@@ -782,19 +906,23 @@ body {
     font-size: 18px;
     font-weight: 400;
   }
+
   .about-box img {
     width: 40%;
     height: 40%;
     margin-top: -10%;
     margin-bottom: 2%;
   }
-  .about-box > div {
+
+  .about-box>div {
     width: 80%;
     margin: auto;
   }
+
   .about-box p {
     font-size: 15px;
   }
+
   .information {
     font-size: 12px;
     display: flex;
@@ -802,18 +930,22 @@ body {
     gap: 15%;
   }
 
-  #skills > div:nth-child(2) {
+  #skills>div:nth-child(2) {
     display: block;
   }
-  #skills > div:nth-child(2) > div > div div {
+
+  #skills>div:nth-child(2)>div>div div {
     font-size: 15px;
   }
+
   .front-end {
     width: 100%;
   }
+
   .front-end h2 {
     text-align: center;
   }
+
   .back-end {
     width: 100%;
   }
@@ -821,32 +953,40 @@ body {
   .back-end h2 {
     text-align: center;
   }
-  .front-end > div {
+
+  .front-end>div {
     display: block;
     padding: 0;
   }
+
   #footer h2 {
     font-size: 1.8832rem;
     padding-top: 4%;
   }
+
   #footer p {
     font-size: 10px;
   }
+
   .links p {
     font-size: 12px;
   }
+
   .links i {
     font-size: 30px;
   }
+
   .name {
     font-size: 12px;
   }
+
   .project-title h3 {
     font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   #projects {
     height: auto;
     background-color: rgb(214, 214, 214);
@@ -857,23 +997,29 @@ body {
     height: 50%;
     margin-top: 85px;
   }
+
   .project-about {
     width: 43%;
   }
+
   .project-desc {
     font-size: 10px;
     height: auto;
   }
+
   .project-techstack h4 {
     font-size: 10px;
   }
+
   .pro_2_div {
     width: 100%;
   }
-  .pro_2_div > div {
+
+  .pro_2_div>div {
     width: 75%;
   }
-  .project-links > a {
+
+  .project-links>a {
     font-size: 15px;
     margin-top: 8%;
   }
@@ -883,66 +1029,81 @@ body {
     height: auto;
     background-color: rgb(214, 214, 214);
   }
+
   .project-img {
     width: 95%;
     margin: 0;
     margin-top: 5%;
   }
+
   .project-about {
     width: 95%;
     margin: auto;
   }
+
   .project-desc {
     font-size: 13px;
     height: auto;
     margin-top: 0;
   }
+
   .project-techstack h4 {
     font-size: 13px;
   }
+
   .pro_2_div {
     width: 100%;
   }
-  .pro_2_div > div {
+
+  .pro_2_div>div {
     height: auto;
     display: block;
     text-align: center;
   }
-  #call > i {
+
+  #call>i {
     font-size: 12px;
     margin: 0%;
   }
+
   .code {
     font-size: 18px;
   }
+
   .contrib-number {
     line-height: 1.3em;
     font-size: 12px;
     display: block;
     color: #333;
   }
+
   .titles {
     color: rgb(33, 37, 41);
     font-size: 1.8832rem;
     font-weight: 300;
-    margin: 5% 0px 0px;
+    margin: 0% 0px 0px;
   }
+
   .fontWhite {
     color: white;
   }
+
   .about-me-txt {
     font-size: 1.8832rem;
     font-weight: 300;
   }
+
   .hi {
     color: #2e2e2e;
     font-size: 15px;
   }
-  .front-end div > img {
+
+  .front-end div>img {
     width: 20%;
     margin-right: 5%;
   }
-  .back-end div > img {
+
+  .back-end div>img {
     width: 20%;
     margin-right: 5%;
   }
@@ -964,6 +1125,7 @@ li {
 a {
   text-decoration: none;
 }
+
 .header {
   border-bottom: 1px solid #e2e8f0;
 }
@@ -1037,6 +1199,7 @@ a {
   .nav-menu.active {
     left: 0;
   }
+
   .nav-item {
     margin: 2.5rem 0;
   }
@@ -1045,6 +1208,7 @@ a {
     display: block;
     cursor: pointer;
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
