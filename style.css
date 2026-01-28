@@ -470,6 +470,125 @@ body {
   margin-right: 5%;
 }
 
+/* experience */
+#experience {
+  background-color: #007266;
+  background: linear-gradient(136deg,
+      rgb(68, 132, 206),
+      rgb(26, 215, 192),
+      rgb(255, 155, 17),
+      rgb(155, 89, 182),
+      rgb(255, 127, 127),
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+  padding-bottom: 5%;
+}
+
+#experience>div:nth-child(1) {
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+}
+
+.experience-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.experience-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.company-name {
+  color: #2e2e2e;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.job-title {
+  color: #007266;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.timeline {
+  background: linear-gradient(136deg,
+      rgb(68, 132, 206),
+      rgb(26, 215, 192),
+      rgb(255, 155, 17),
+      rgb(155, 89, 182),
+      rgb(255, 127, 127),
+      rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-text {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.experience-description {
+  color: #2e2e2e;
+}
+
+.experience-description ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-description li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgb(50, 50, 50);
+}
+
+.experience-description li:before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #007266;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.experience-description li:last-child {
+  margin-bottom: 0;
+}
+
 /* projects */
 #projects {
   background-color: rgb(233, 236, 239);
@@ -859,6 +978,32 @@ body {
     font-size: 1.8832rem;
     font-weight: 300;
   }
+
+  /* experience responsive */
+  .experience-container {
+    width: 85%;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline {
+    margin-top: 1rem;
+  }
+
+  .company-name {
+    font-size: 24px;
+  }
+
+  .job-title {
+    font-size: 18px;
+  }
+
+  .experience-description li {
+    font-size: 15px;
+  }
 }
 
 /* mobile phones */
@@ -1106,6 +1251,46 @@ body {
   .back-end div>img {
     width: 20%;
     margin-right: 5%;
+  }
+
+  /* experience responsive */
+  .experience-container {
+    width: 90%;
+  }
+
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .timeline-text {
+    font-size: 14px;
+  }
+
+  .company-name {
+    font-size: 20px;
+  }
+
+  .job-title {
+    font-size: 16px;
+  }
+
+  .experience-description li {
+    font-size: 13px;
+    padding-left: 25px;
+  }
+
+  .experience-description li:before {
+    font-size: 20px;
   }
 }
 
