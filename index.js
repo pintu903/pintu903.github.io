@@ -2,6 +2,10 @@ let drive = document
   .querySelector("#Drivegoogle")
   .addEventListener("click", openDrive);
 
+let drive2 = document
+  .querySelector("#Drivegoogle2")
+  .addEventListener("click", openDrive);
+
 function openDrive() {
   window.open(
     (href =
