@@ -9,7 +9,7 @@ let drive2 = document
 function openDrive() {
   window.open(
     (href =
-      "https://drive.google.com/file/d/14Q9wEy0Lu17h244lr5E4urPL8f4spf0q/view?usp=sharing")
+      "https://drive.google.com/file/d/1kqiD5G8uq5eNI05Twz-TjCTSRy9ITcWH/view?usp=sharing")
   );
 }
 
